@@ -44,7 +44,7 @@ app.post("/", function (req, res) {
       console.log(temp, tempdesc);
 
       res.send(
-        `<h4>Temperature:</h4> ${temp}
+        `<h4>Your City ${city} Temperature:</h4> ${temp}
           <h4>Weather:</h4> ${tempdesc}<br>
           <img src="${iconURL}" >`
       );
